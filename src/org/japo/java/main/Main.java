@@ -41,14 +41,11 @@ public class Main {
         //Salida en mayúsculas
         System.out.printf("Usted se llama: %S%n", nombre);
 
-        /*Salida en mayúsculas usando el $ para decir que %1$s será la primera 
-        salida en minúsculas, el segundo especificador de formato es: %1$S para
-        sacarlo todo en MAYUSCULAS. Y el tercero: %1$.1S solo saca la primera
-        inicial en mayúsculas, si ponemos %1$.2S saldrían 2 caracteres en Mays
+        /*Salida en mayúsculas usando el $ 
         */
         System.out.printf("Usted se llama: %1$s - %1$S - %1$.1S%n", nombre);
 
-        //Una variante del primer printf
+        //Mensaje
         System.out.println("\nGracias " + nombre + " por introducir su nombre");
 
     }
