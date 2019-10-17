@@ -41,8 +41,7 @@ public class Main {
         //Salida en mayúsculas
         System.out.printf("Usted se llama: %S%n", nombre);
 
-        /*Salida en mayúsculas usando el $ 
-        */
+        //Salida 
         System.out.printf("Usted se llama: %1$s - %1$S - %1$.1S%n", nombre);
 
         //Mensaje
